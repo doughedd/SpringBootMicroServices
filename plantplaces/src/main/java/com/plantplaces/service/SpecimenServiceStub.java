@@ -11,6 +11,9 @@ public class SpecimenServiceStub
 	{
 		SpecimenDTO specimenDTO = new SpecimenDTO();
 		specimenDTO.setSpecimenId(43);
+		specimenDTO.setLatitude("40.70");
+		specimenDTO.setLongitude("-65.42");
+		specimenDTO.setDescription("A beautiful eastern Redbud");
 		return specimenDTO;		
 	}
 	
